@@ -1,0 +1,31 @@
+# IoT-Based Smart Irrigation Controller with BLE and Blynk
+
+This project implements an IoT-enabled irrigation system using the nRF52832 microcontroller and BLE technology. It integrates soil moisture, temperature, and humidity sensors to optimize garden watering schedules. The system communicates with the Blynk app for local monitoring and control over BLE, allowing for efficient water usage and plant health management.
+
+## Project Overview
+
+This smart irrigation controller is designed to automate garden watering by monitoring soil conditions and environmental parameters. The system uses the Blynk app for a user-friendly interface, enabling real-time monitoring and manual control. The water pump is automatically activated based on the soil moisture level, helping to prevent overwatering or underwatering.
+
+### Key Features
+- **Microcontroller**: nRF52832 SoC with BLE support.
+- **Sensors Used**:
+  - **Capacitive Soil Moisture Sensor**: Measures soil moisture content to determine watering needs.
+  - **DHT22 Temperature and Humidity Sensor**: Measures environmental temperature and humidity.
+- **Actuator**: Water pump controlled via a relay module.
+- **Communication**: BLE (Bluetooth Low Energy) using Blynk for local monitoring and control.
+- **Control and Monitoring**: Blynk app displays real-time sensor data and allows manual control of the water pump.
+
+## Hardware Requirements
+- nRF52832 Development Board
+- Capacitive Soil Moisture Sensor
+- DHT22 Temperature and Humidity Sensor
+- Relay Module for controlling the water pump
+- Water Pump
+- Power supply (USB or battery)
+- Breadboard and jumper wires for connections
+
+## Software Requirements
+- **Arduino IDE** with nRF52 Board Support
+- Blynk Library for BLE communication
+- DHT Sensor Library for reading temperature and humidity
+- Serial Monitor for debugging (optional)
